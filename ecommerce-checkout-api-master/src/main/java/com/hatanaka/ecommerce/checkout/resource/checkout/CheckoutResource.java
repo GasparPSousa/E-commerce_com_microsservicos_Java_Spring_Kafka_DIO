@@ -1,4 +1,4 @@
-package com.hatanaka.ecommerce.checkout.resource;
+package com.hatanaka.ecommerce.checkout.resource.checkout;
 
 import com.hatanaka.ecommerce.checkout.event.CheckoutCreatedEvent;
 import com.hatanaka.ecommerce.checkout.streaming.CheckoutCreatedSource;
