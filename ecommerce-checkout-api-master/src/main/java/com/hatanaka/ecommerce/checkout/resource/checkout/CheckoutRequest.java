@@ -11,7 +11,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class CheckoutResquest implements Serializable{
+public class CheckoutRequest implements Serializable{
 
     private String firstName;
     private String lastName;
