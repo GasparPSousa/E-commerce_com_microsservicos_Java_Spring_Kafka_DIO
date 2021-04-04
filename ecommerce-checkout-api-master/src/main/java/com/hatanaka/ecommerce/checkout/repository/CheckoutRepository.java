@@ -9,4 +9,5 @@ import java.util.Optional;
 @Repository
 public interface CheckoutRepository extends JpaRepository<CheckoutEntity, Long> {
      Optional<CheckoutEntity> findByCode(String code);
+
 }

@@ -34,4 +34,9 @@ public class CheckoutServiceImpl implements CheckoutService {
         checkoutCreatedSource.output().send(MessageBuilder.withPayload(checkoutCreatedEvent).build());
         return Optional.of(entity);
     }
+
+    @Override
+    public Optional<CheckoutEntity> updateStatus(String checkoutCode, CheckoutEntity.Status status) {
+        return Optional.empty();
+    }
 }
